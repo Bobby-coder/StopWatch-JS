@@ -66,6 +66,7 @@ const stop = () => {
 };
 
 const reset = () => {
+  timer = false
   milisecond = 0;
   second = 0;
   minute = 0;
